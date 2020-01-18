@@ -1,6 +1,6 @@
 Name:           perl-GD-Barcode
 Version:        1.15
-Release:        14%{?dist}
+Release:        15%{?dist}
 Summary:        Create barcode image with GD
 # see Barcode.pm
 License:        GPL+ or Artistic
@@ -42,6 +42,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.15-15
+- Mass rebuild 2013-12-27
+
 * Tue Nov 06 2012 Petr Šabata <contyk@redhat.com> - 1.15-14
 - Modernize the spec a bit and fix the dependencies
 
